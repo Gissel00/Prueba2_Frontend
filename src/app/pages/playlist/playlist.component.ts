@@ -29,7 +29,6 @@ export class PlaylistComponent implements OnInit {
 
   private buildForm() {
     this.form = this.formBuilder.group({
-      id: [''],
       descripcion: [null],
       categoria: [''],
       calificacion: [null],

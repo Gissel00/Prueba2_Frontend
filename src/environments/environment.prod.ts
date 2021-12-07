@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  urlBackend:'https://playlist00.herokuapp.com/'
 };
