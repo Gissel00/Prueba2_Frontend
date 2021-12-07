@@ -2,20 +2,19 @@
   "name": "app-playlist",
   "version": "0.0.0",
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "postinstall": "ng build --prod"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
-    "@angular-devkit/build-angular": "~12.2.13",
-    "@angular/cli": "^12.2.13",
+    "@angular/cli": "~12.2.13",
     "@angular/compiler-cli": "~12.2.0",
     "@angular/core": "~12.2.0",
     "@angular/forms": "~12.2.0",
@@ -30,7 +29,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.13",
-    "@angular/cli": "^12.2.13",
+    "@angular/cli": "~12.2.13",
     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",
